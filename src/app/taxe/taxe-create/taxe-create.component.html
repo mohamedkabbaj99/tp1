@@ -1,0 +1,15 @@
+<div class="card">
+  <div class="card-header">Ajout de taxe</div>
+  <div class="card-body">
+    <div class="form-group">
+      <label >Rib</label>
+      <input type="text" class="form-control" [(ngModel)]="taxe.rib">
+    </div>
+    <div class="form-group">
+      <label >solde</label>
+      <input type="number" class="form-control" [(ngModel)]="taxe.solde">
+    </div>
+    <button class="btn btn-block btn-outline-primary" (click)="save()">Valider</button>
+  </div>
+</div>
+
